@@ -1,0 +1,87 @@
+*{
+    font-family: 'Heebo', sans-serif;
+}
+body{
+    margin: 0;
+}
+#panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:5px;
+}
+.prices h2{
+    margin:3px 0px 0px 2px;
+    font-size: 1em;
+    font-weight: 400;
+}
+.prices h4{
+    margin:3px 0px 0px 2px;
+    font-size: 0.9em;
+    font-weight: 300;
+    color: greenyellow;
+}
+.prices{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: black 1px solid;
+    border-bottom:0px;
+    border-radius: 5px;
+    padding:5px 10px 10px 5px;
+    background-color: #5b6467;
+    background-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
+    width:340px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.ext{
+    border-top:0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.formChangePrice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+}
+#alert{
+    border:5px solid red;
+    padding:10px;
+    margin-top:10px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1em;
+    background-color: red;
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    color: greenyellow;
+    display: none;
+    cursor: pointer;
+}
+@keyframes blink{
+    0%{background-color: red;}
+    25%{background-color: blue;}
+    50%{background-color: red;}
+    100%{background-color: blue;}
+}
+.coinName{
+    color: hotpink;
+}
+.BUY{
+    color: rgb(0, 255, 34);
+    font-weight: 500;
+}
+.neg{
+    color: red;
+    font-weight: 500;
+}
+.pos{
+    color: greenyellow;
+    font-weight: 500;
+}

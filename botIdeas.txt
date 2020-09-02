@@ -1,0 +1,30 @@
+
+
+Check if most recent is deposit , sell or buy btc
+
+if deposit then
+Get my most recent deposit
+Get price of BTC at that time of deposit
+Check current price of btc
+If(current price > price at deposit){
+calculate percentage of difference
+if percentage>5-sell it for USD
+}
+
+if sell then
+Get my most recent sell info
+Get price of BTC at that time of sell
+Check current price of btc
+If(current price < price at sell){
+calculate percentage of difference
+if percentage>=5-buy BTC
+}
+
+if buy btc
+Get my most recent buy info
+Get price of BTC at that time of buy
+Check current price of btc
+If(current price > price at deposit){
+calculate percentage of difference
+if percentage>5-sell it for USD
+}
